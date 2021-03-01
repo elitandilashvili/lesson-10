@@ -1,0 +1,423 @@
+/* header */
+
+.header{
+    max-width: 1366;
+    width: 100%;
+    height: 324px;
+    margin:  0 auto;
+    background-image: url(../image/Group\ 65.jpg);
+    position: fixed;
+    top:0;
+	left:0;
+}
+.navigation{
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    font-size: 14px;
+    margin-top: 38px;
+    margin-left: 47px;
+}
+
+.div-ul{
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+.li-1{
+    margin-right: 47px;
+}
+.contact-div{
+  margin-top: 135px;
+}
+
+.contact{
+    font-size: 42px;
+    margin-left: 47px;
+    color: white;
+
+}
+
+.home-div{
+  
+    display: flex;
+    margin-left: 47px;
+    margin-top: 15px;
+
+}
+
+
+.home-title{
+    margin-right:10px;
+}
+
+.divider{
+    max-width: 2px;
+    width: 100%;
+    height: 15px;
+    margin-right: 10px;
+    background-color: hotpink;
+
+}
+
+/* section1 */
+
+.section-1{
+    max-width: 1088px;
+    width: 100%;
+    margin:  0 auto;
+    margin-top: 350px;
+    margin-left: 139px;
+}
+
+.block-map{
+    max-width: 1088px;
+    width: 100%;
+    height: 250px;
+    margin:0 auto;
+    margin-top:90px;
+}
+
+.iframe-1{
+    max-width: 1088px;
+    height: 250px;
+    margin: 0 auto;
+
+}
+
+
+/* section2 */
+
+
+.section-2{
+    margin-left: 139px;
+    margin-top: 90px;
+    margin-bottom:90px;
+}
+
+.section-2-title{
+    font-size: 14px;
+    font-weight: bold;
+    color: blue;
+    margin-top: 40px;
+    margin: 0 auto;
+
+}
+.section-2-contact{
+    font-size: 42px;
+    font-weight: bold;
+    color: black;
+    margin: 0 auto;
+}
+
+/* section3 */
+
+
+.textarea-wraper{
+    max-width: 720px;
+    width: 100%;
+    height: 288px;
+    resize: none;
+}
+ textarea:focus,
+input:focus {
+    outline: none;
+    
+} 
+
+.form-wraper{
+    display: flex;
+    max-width:1088px;
+    width: 100%;
+    justify-content: space-around;
+    
+}
+
+ .input{
+    max-width: 352px;
+    width: 100%;
+    height: 60px;
+    background-color: E8E8E8;
+    margin-bottom: 16px;
+} 
+
+.inputs{
+    max-width: 350px;
+    width: 100%;
+    margin-top: 15px;
+}
+
+.input-wraper-text{
+    max-width: 720px;
+    width: 100%;
+    height: 288px;
+    margin-left: 139px;
+    margin-right: 15px;
+    margin-top: 15px;
+
+}
+
+.send-box{
+    max-width: 350px;
+    width: 100%;
+    height: 60px;
+    background-color: blue;
+    color: white;
+    font-size: 14px;
+    
+
+    
+}
+.send-wraper{
+    display: flex;
+    justify-content: center;
+}
+
+.send{
+    margin-top: 20px;
+}
+
+.image{
+    background-image: url(../image/Path\ 2.png);
+    background-repeat:no-repeat;
+    background-image:cover;
+    align-items: center;
+    justify-content: center;
+    max-width:16px ;
+    height: 17px;
+    
+
+}
+
+.block-wraper{
+    max-width: 362px;
+    width:100%;
+    height: 172px;px;
+    background-color:white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-left: 139px;
+    margin-top: 35px;
+}
+.blocks{
+    display: flex;
+    justify-content: space-between;
+    max-width: 1088px;
+    width: 100%;
+}
+
+.icon{
+    max-width: 59px;
+    width: 100%;
+    height: 59px;
+    background-color: #325DFF;
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.p-1{
+    text-align: center;
+    color: #B1B1B1;
+}
+.h-3{
+    margin-bottom: 10px;
+    margin-top: 10px;
+    font-weight: bolder;
+}
+
+.image-1{
+    background-image: url(../image/mail.svg);
+    width: 16px;
+    height: 13px;
+    align-items: center;
+    justify-content: center;
+}
+
+.image-2{
+  background-image: url(../image/phone.svg);
+    width: 16px;
+    height: 13px;
+    align-items: center;
+    justify-content: center;
+
+}
+.image-3{
+    background-image: url(../image/Path\ 27.png);
+    width: 16px;
+    height: 13px;
+    align-items: center;
+    justify-content: center;
+}
+/* section4 */
+.section-wraper{
+    margin-left: 139px;
+    margin-top: 35px;
+    margin-bottom: 50px;
+}
+
+
+
+.wraper-photo{
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.img-1{
+    background-image: url(../image/sea.jpg);
+    background-repeat:no-repeat;
+    background-size:cover;
+    max-width: 352px;
+    width: 100%;
+    height: 352px;
+
+}
+
+.img-2{
+    background-image: url(../image/mountain.jpg);
+    background-repeat:no-repeat;
+    background-size:cover;
+    max-width: 352px;
+    width: 100%;
+    height: 352px;
+
+}
+
+.img-3{
+    background-image: url(../image/furniture.jpg);
+    background-repeat:no-repeat;
+    background-size:cover;
+    max-width: 352px;
+    width: 100%;
+    height: 352px;
+
+}
+
+/* footer */
+
+.footer{
+    background-color: black;
+    max-width: 1366px;
+    width: 100%;
+    height: 395px;
+    display: flex;
+    justify-content:space-between;
+}
+
+.footer-h-3{
+    font-size: 24px;
+    font-weight: bolder;
+    color: white;
+    margin-left: 60px;
+    padding-top:90px;
+    margin-bottom: 15px;
+}
+
+.footer-p{
+    
+    font-size: 14px;
+    color: white;
+    margin-left: 60px;
+    
+}
+
+.image-1{
+    max-width:35px;
+    width: 100%;
+    height: 35px;
+    background-image: url(../image/001-facebook.png);
+}
+
+.image-2{
+    max-width:35px;
+    width: 100%;
+    height: 35px;
+    background-image: url(../image/002-twitter.png);
+    margin-left: 15px;
+    margin-right: 15px;
+}
+.image-3{
+    max-width:35px;
+    width: 100%;
+    height: 35px;
+    background-image: url(../image/004-google-plus.png);
+}
+
+.images{
+    display: flex;
+    
+    margin-top: 25px;
+    margin-left: 60px;
+}
+.box-1{
+    max-width:260px ;
+    width: 100%;
+    height: 191px;
+}
+
+/* footer navigation */
+
+.h-4{
+    font-size: 18px;
+    font-weight: bolder;
+    color: white;
+    padding-top:90px;
+}
+
+.navigation-li{
+    color: blue;
+    font-size: 14px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+.blog-1{
+    margin-top: 20px;
+
+}
+
+.icon-1{
+    background-image: url(../image/Path\ 26.png);
+    max-width: 16px;
+    width: 100%;
+    height: 12px;
+}
+.icon-2{
+    background-image: url(../image/phone.png);
+    max-width: 16px;
+    width: 100%;
+    height: 12px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.icon-3{
+    background-image: url(../image/map-pin.png);
+    max-width: 16px;
+    width: 100%;
+    height: 12px;
+}
+
+.footer-icon{
+    margin-top: 20px;
+}
+
+.info{
+    color: white;
+    font-size: 14px;
+   margin-left: 30px;
+}
+
+.blog-2{
+    margin-top: 20px;
+    max-width: 198px;
+    width: 100%;
+}
+
+
+
+
+
