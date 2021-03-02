@@ -28,12 +28,13 @@
     }
     .contact-div{
         margin-top: 135px;
+        
       }
       .contact{
         font-size: 42px;
         margin-left: 47px;
         color: white;
-    
+        
     }
 
     .home-div{
@@ -45,6 +46,7 @@
     }
     .home-title{
         margin-right:10px;
+        color: white;
     }
     .divider{
         max-width: 2px;
@@ -54,7 +56,9 @@
         background-color:white;
     
     }
-
+.contact-h{
+    color: white;
+}
     .logo{
         margin-top: 38px;
         font-weight: bold;
@@ -373,6 +377,7 @@ input:focus {
     max-width: 16px;
     width: 100%;
     height: 12px;
+   
   
 }
 .icon-2{
@@ -380,6 +385,7 @@ input:focus {
     max-width: 16px;
     width: 100%;
     height: 12px;
+    
    
 }
 
@@ -388,12 +394,11 @@ input:focus {
     max-width: 16px;
     width: 100%;
     height: 12px;
+   
     
 }
 
-.footer-icon{
-    margin-top: 20px;
-}
+
 
 .info{
     color: white;
@@ -402,24 +407,23 @@ input:focus {
    font-weight: bold;
 }
 .blog-2{
-    margin-top: 20px;
-    max-width: 198px;
-    width: 100%;
-}
-
-
-.navigation-3{
+    margin-top: 40px;
     display: flex;
-    margin-right:50px;
+    flex-direction:column;
+   
+    
 }
-
-.iconic{
-display: flex;
-flex-direction: column;
- 
-}
-
-.footer-mail-p{
+.blog-1{
     display: flex;
+    flex-direction:column;
+   
+
+}
+
+
+.navigation-2{
+    display: flex;
+  flex-direction: column;
+    color: white;
     
 }
