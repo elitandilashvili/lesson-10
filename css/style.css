@@ -1,88 +1,76 @@
 /* header */
-
 .header{
-    max-width: 1366;
-    width: 100%;
-    height: 324px;
-    margin:  0 auto;
     background-image: url(../image/Group\ 65.jpg);
-    position: fixed;
-    top: 0;
-    left: 0;
-    
-}
-.navigation{
-    display: flex;
-    justify-content: space-between;
-    color: white;
-    font-size: 14px;
-    margin-top: 38px;
-    margin-left: 47px;
-}
-
-.div-ul{
-    display: flex;
-    justify-content: space-around;
-    
-}
-
-.li-1{
-    margin-right: 47px;
-}
-.contact-div{
-  margin-top: 135px;
-}
-
-.contact{
-    font-size: 42px;
-    margin-left: 47px;
-    color: white;
-
-}
-
-.home-div{
-  
-    display: flex;
-    margin-left: 47px;
-    margin-top: 15px;
-
-}
-
-
-.home-title{
-    margin-right:10px;
-}
-
-.divider{
-    max-width: 2px;
-    width: 100%;
-    height: 15px;
-    margin-right: 10px;
-    background-color: hotpink;
-
-}
-
-/* section1 */
-
-.section-1{
+    background-repeat: no-repeat;
+    background-size: cover;
     max-width: 1366px;
     width: 100%;
-    margin:  0 auto;
-    margin-top: 350px;
-    margin-left: 139px;
+    height: 324px;
 }
 
+    .navigation{
+        display: flex;
+        justify-content: space-between;
+        color: white;
+        font-size: 14px;
+        margin-top: 38px;
+        margin-left: 47px;
+    }
+    .div-ul{
+        display: flex;
+        justify-content: space-around;
+        margin-top: 38px;
+        
+        
+    }
+    .li-1{
+        margin-right: 47px;
+    }
+    .contact-div{
+        margin-top: 135px;
+      }
+      .contact{
+        font-size: 42px;
+        margin-left: 47px;
+        color: white;
+    
+    }
+
+    .home-div{
+  
+        display: flex;
+        margin-left: 47px;
+        margin-top: 15px;
+    
+    }
+    .home-title{
+        margin-right:10px;
+    }
+    .divider{
+        max-width: 2px;
+        width: 100%;
+        height: 15px;
+        margin-right: 10px;
+        background-color:white;
+    
+    }
+
+    .logo{
+        margin-top: 38px;
+        font-weight: bold;
+    }
+/* section1 */
 .block-map{
     display: flex;
     width: 1234px;
     justify-content: center;
 }
 .iframe-1{
-    max-width: 1088px;
+    width: 1088px;
     height: 286px;
-    margin: 0 auto;
-
+    padding-top: 50px;
 }
+
 
 
 /* section2 */
